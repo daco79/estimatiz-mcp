@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fr.estimatiz.www/estimatiz",
+  "title": "Estimatiz",
+  "description": "Estimation immobilière en France avec fourchette de valeur et rapport partageable.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.estimatiz.fr/api-documentation",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.estimatiz.fr/api/mcp.php"
+    }
+  ]
+}
